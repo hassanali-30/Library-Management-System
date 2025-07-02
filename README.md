@@ -1,38 +1,43 @@
-# Library-Management-System
-This Java code represents a simple Library Management System that allows users to manage books and their issuance. Here are the key components and their functionalities:
+# 📚 Library Management System – Java
 
-Key Components
-Book Class:
+This Java-based **Library Management System** allows you to manage books, users, and issuing/returning of books using a menu-driven console application. It demonstrates core OOP concepts such as classes, objects, encapsulation, and collections.
 
-Stores book details such as ID, title, author, and issuance status.
+---
 
-Provides getter methods to access book details and a toString method for easy printing.
+## 🚀 Features
 
-User Class:
+- 📘 Add books with ID, title, and author  
+- 👤 Register users with user ID and name  
+- 📕 Issue a book to a registered user  
+- 📗 Return issued books  
+- 📋 View all books, users, and issued book records  
+- 🧠 Uses ArrayList and HashMap for data handling  
 
-Stores user details such as user ID and name.
+---
 
-Provides getter methods to access user details and a toString method for easy printing.
+## 💻 Technologies Used
 
-LibraryManagementSystem Class:
+- Java (Core)
+- OOP principles
+- Java Collections (ArrayList, HashMap)
+- Command-line interface (Scanner)
 
-Manages lists of books and users, as well as a map to track issued books.
+---
 
-Provides methods to add books, register users, issue and return books, and view books, users, and issued books.
+## 🧠 Concepts Practiced
 
-Main Method:
+- Object-Oriented Programming (OOP)
+- Class and Object design
+- Encapsulation
+- Fileless Data Management (Runtime only)
+- Menu-driven programming
 
-Provides a menu-driven interface for users to interact with the system.
+---
 
-Allows users to choose from options like adding a book, registering a user, issuing a book, returning a book, and viewing books and users.
+## 📦 File Structure
 
-Importance of This Code
-Object-Oriented Programming: Demonstrates the use of classes, objects, and methods in Java, emphasizing the principles of encapsulation and abstraction.
-
-Data Management: Shows how to manage data using collections (ArrayList and HashMap) and perform CRUD (Create, Read, Update, Delete) operations.
-
-User Interaction: Implements a user-friendly menu interface to interact with the system, making it practical and interactive.
-
-Real-World Application: Provides a basic framework for a library management system, which can be extended and enhanced to include more features and functionalities, making it useful for small libraries or as a learning project.
-
-Problem-Solving Skills: Encourages problem-solving and logical thinking by handling different scenarios such as issuing and returning books, checking availability, and updating records.
+```plaintext
+LibraryManagementSystem/
+├── LibraryManagementSystem.java  # Main system with menu
+├── README.md                     # Project documentation
+├── LICENSE                       # Open-source license
