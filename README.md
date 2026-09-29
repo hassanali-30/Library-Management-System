@@ -1,43 +1,43 @@
-# 📚 Library Management System – Java
+# Library Management System
 
-This Java-based **Library Management System** allows you to manage books, users, and issuing/returning of books using a menu-driven console application. It demonstrates core OOP concepts such as classes, objects, encapsulation, and collections.
+A Java console application for managing books, users, and lending activity. The project uses object-oriented design and Java collections to keep track of records during runtime.
 
----
+## Features
 
-## 🚀 Features
+- Add books with an ID, title, and author
+- Register library users
+- Issue books to registered users
+- Return issued books
+- View books, users, and issued-book records
+- Manage in-memory data with `ArrayList` and `HashMap`
 
-- 📘 Add books with ID, title, and author  
-- 👤 Register users with user ID and name  
-- 📕 Issue a book to a registered user  
-- 📗 Return issued books  
-- 📋 View all books, users, and issued book records  
-- 🧠 Uses ArrayList and HashMap for data handling  
+## Requirements
 
----
+- Java Development Kit (JDK)
 
-## 💻 Technologies Used
+## Build and Run
 
-- Java (Core)
-- OOP principles
-- Java Collections (ArrayList, HashMap)
-- Command-line interface (Scanner)
+If the source file is named `LibraryManagementSystem.java`:
 
----
+```bash
+javac LibraryManagementSystem.java
+java LibraryManagementSystem
+```
 
-## 🧠 Concepts Practiced
+The application is a runtime-only console system; the current implementation does not provide persistent storage.
 
-- Object-Oriented Programming (OOP)
-- Class and Object design
+## Project Structure
+
+```text
+LibraryManagementSystem.java   # Main Java source
+README.md                       # Project documentation
+LICENSE                         # License information
+```
+
+## Concepts Demonstrated
+
+- Classes and objects
 - Encapsulation
-- Fileless Data Management (Runtime only)
-- Menu-driven programming
-
----
-
-## 📦 File Structure
-
-```plaintext
-LibraryManagementSystem/
-├── LibraryManagementSystem.java  # Main system with menu
-├── README.md                     # Project documentation
-├── LICENSE                       # Open-source license
+- Java collections
+- Console input with `Scanner`
+- Menu-driven application design
